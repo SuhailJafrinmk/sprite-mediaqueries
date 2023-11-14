@@ -1,0 +1,129 @@
+
+
+
+/*for tab view*/
+@media(max-width: 835px){
+    .grid-one-one img{
+        width: 90%;
+    }
+    .list1{
+        display: none;
+    }
+    .grid-one-one{
+        grid-area: 1/2/2/3;
+    }
+    .grid-one-two{
+        display: none;
+    }
+    .dob-container{
+        width: 100%;
+    }
+    #month,#day,#year{
+        width: 32.3%;
+        height: 45px;
+        border-radius: 23px;
+        border: none;
+    }
+    .checkbox-container p{
+        font-size: 12px;
+
+    }
+    .container-for-text h1{
+        font-size: 50px;
+
+    }
+    .seven-items{
+        display: inline;
+        text-align: center;
+    }
+    .seven-items a{
+        border-right: none;
+        padding: 2px;
+        margin-bottom: 20px;
+    }
+    .seven-items li{
+        border-top: 1px solid white;
+        margin-top: 10px;
+    }
+    .outer-container-4{
+        padding: 50px 20px 20px 50px;
+    }
+    
+    .footer-1 img{
+        width: 80%;
+    }
+    .container-for-text{
+        width: 40%;
+    }
+    .container-for-spritebottle{
+        width: 60%;
+    }
+    .container-for-spritebottle img{
+        width: 100%;
+    }
+}
+/*mobile view*/
+@media(max-width: 430px){
+    .list1{
+        display: none;
+    }
+    .menuicon{
+        display: inline;
+    }
+    .video-desktop{
+        display: none;
+    }
+    .video-mobile{
+        display: block;
+        width: 100%;
+    }
+    .container-for-form{
+        width: 100%;
+    }
+    #month,#day,#year{
+        width: 32.3%;
+        height: 45px;
+        border-radius: 23px;
+        border: none;
+    }
+    .outer-container-4{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 30px 0px 30px;
+    }
+    .container-for-text{
+        width: 100%;
+    }
+    .container-for-text h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .container-for-spritebottle{
+        width: 100%;
+    }
+    .outer-container-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-one-one{
+        grid-area: 1/2/2/3; 
+    }
+    .footer-1 img{
+        width: 100%;
+    }
+    
+
+    .footer-2 p{
+        font-size: 10px;
+    }
+    .social-media{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
